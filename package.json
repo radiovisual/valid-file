@@ -19,10 +19,10 @@
     "index.js"
   ],
   "keywords": [
+    "verify",
     "file",
     "exists",
     "exist",
-    "verify",
     "check",
     "validate",
     "path",
