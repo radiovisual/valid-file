@@ -1,6 +1,8 @@
-# valid-file [![Build Status](https://travis-ci.org/radiovisual/valid-file.svg?branch=master)](https://travis-ci.org/radiovisual/valid-file)
+# valid-file
 
 > Check if a file is a file.
+
+[![Build Status](https://travis-ci.org/radiovisual/valid-file.svg?branch=master)](https://travis-ci.org/radiovisual/valid-file) [![Coverage Status](https://coveralls.io/repos/github/radiovisual/valid-file/badge.svg?branch=master)](https://coveralls.io/github/radiovisual/valid-file?branch=master)
 
 Returns `true` if the path points to a valid file, otherwise, return `false`. 
 
