@@ -19,8 +19,8 @@ test('expects a path string sync', t => {
 });
 
 test('returns true on valid files (async)', t => {
-	fn(__filename, verify => {
-		t.is(verify, true);
+	fn(__filename, valid => {
+		t.is(valid, true);
 	});
 });
 
@@ -29,8 +29,8 @@ test('returns true on valid files (sync)', t => {
 });
 
 test('returns false on invalid files (async)', t => {
-	fn(path.join(__dirname, 'invalid-file.txt'), verify => {
-		t.is(verify, false);
+	fn(path.join(__dirname, 'invalid-file.txt'), valid => {
+		t.is(valid, false);
 	});
 });
 
@@ -43,7 +43,7 @@ test('returns false on directory (sync)', t => {
 });
 
 test('returns false on directory (async)', t => {
-	fn(__dirname, verify => {
-		t.is(verify, false);
+	fn(__dirname, valid => {
+		t.is(valid, false);
 	});
 });
