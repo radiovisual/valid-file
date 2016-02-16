@@ -1,0 +1,38 @@
+{
+  "name": "valid-file",
+  "version": "0.0.0",
+  "description": "Check if a file is a file.",
+  "license": "MIT",
+  "repository": "radiovisual/valid-file",
+  "author": {
+    "name": "Michael Wuergler",
+    "email": "wuergler@gmail.com",
+    "url": "numetriclabs.com"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "xo && ava"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "file",
+    "exists",
+    "exist",
+    "verify",
+    "check",
+    "validate",
+    "path",
+    "string",
+    "system",
+    "relative",
+    "absolute"
+  ],
+  "devDependencies": {
+    "ava": "^0.11.0",
+    "xo": "^0.12.1"
+  }
+}
