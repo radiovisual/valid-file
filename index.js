@@ -3,7 +3,7 @@ var fs = require('fs');
 
 module.exports = function (path, cb) {
 	if (typeof path !== 'string') {
-		throw new TypeError('true-file expects a path string');
+		throw new TypeError('valid-file expects a path string');
 	}
 
 	fs.stat(path, function (err, stats) {
@@ -16,7 +16,7 @@ module.exports = function (path, cb) {
 
 module.exports.sync = function (path) {
 	if (typeof path !== 'string') {
-		throw new TypeError('true-file expects a path string');
+		throw new TypeError('valid-file expects a path string');
 	}
 
 	try {

@@ -9,13 +9,13 @@ test('function', t => {
 test('expects a path string', t => {
 	t.throws(() => {
 		fn();
-	}, 'true-file expects a path string');
+	}, 'valid-file expects a path string');
 });
 
 test('expects a path string sync', t => {
 	t.throws(() => {
 		fn.sync({});
-	}, 'true-file expects a path string');
+	}, 'valid-file expects a path string');
 });
 
 test('returns true on valid files (async)', t => {
