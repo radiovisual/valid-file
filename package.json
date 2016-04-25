@@ -1,6 +1,6 @@
 {
   "name": "valid-file",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Check if a file is a file.",
   "license": "MIT",
   "repository": "radiovisual/valid-file",
